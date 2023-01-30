@@ -14,7 +14,7 @@ type Warrior {
 }
 
 type Query {
-    Warriors: [Warrior]
+    warriors: [Warrior]
 }`
 
 const resolvers = {
